@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#timeSelect, #customTime, button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px; /* Ensure inputs and buttons are the same width */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-image: linear-gradient(to bottom, #cc0000, #cc0000);
+    color: white;
+    border: 1px solid #990000;
+}
+
+#stopButton {
+    background-image: linear-gradient to bottom, #ccccff, #0000cc;
+    border: 1px solid #000099;
+}
+
+#timeDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+

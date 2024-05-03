@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pomodoro Timer</h1>
+    <select id="timeSelect">
+        <option value="300">5 Minutes</option>
+        <option value="600">10 Minutes</option>
+        <option value="1200">20 Minutes</option>
+        <option value="1800">30 Minutes</option>
+        <option value="3600">60 Minutes</option>
+        <option value="custom">Custom</option>
+    </select>
+    <input type="number" id="customTime" placeholder="Minutes" hidden>
+    <button id="startButton">Start</button>
+    <button id="stopButton">Stop</button>
+    <div id="timeDisplay"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
