@@ -51,13 +51,18 @@ function stopTimer() {
 }
 
 function playAlarm() {
-    const audio = new Audio(chrome.runtime.getURL("alarm.mp3"));
     let count = 0;
     const interval = setInterval(() => {
-        audio.play().catch(error => console.error(error));
+        // Erstellt jedes Mal ein neues Audio-Objekt für die Wiedergabe
+        const audio = new Audio(chrome.runtime.getURL("alarm.mp3"));
+        audio.play().then(() => {
+            console.log("Sound played successfully");
+        }).catch(error => {
+            console.error("Error playing sound: ", error);
+        });
         count++;
         if (count >= 5) {
             clearInterval(interval);
         }
-    }, 1000); // Wiederholt alle 1000ms, um den Sound fünfmal zu spielen
+    }, 1500); // Erhöht das Intervall leicht, um sicherzustellen, dass das Audio beendet wird.
 }
