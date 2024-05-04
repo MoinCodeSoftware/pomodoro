@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Pomodoro Timer",
-    "description": "Eine einfache Pomodoro Timer Extension",
+    "name": "Hocus Focus Timer",
+    "description": "Simple Focus Timer Extension",
     "version": "1.0",
     "permissions": [
         "alarms", 

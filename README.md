@@ -1,7 +1,7 @@
 
-### Pomodoro-Timer: Steigern Sie Ihre Produktivität!
+### Focus-Timer: Steigern Sie Ihre Produktivität!
 
-Mit dem Pomodoro-Timer bleiben Sie fokussiert und steigern Ihre Produktivität direkt in Ihrem Chrome-Browser!
+Mit dem Focus-Timer bleiben Sie fokussiert und steigern Ihre Produktivität direkt in Ihrem Chrome-Browser!
 
 🍅 **Einfach und Effektiv**: Wählen Sie zwischen 5, 10, 15, 30 oder 60 Minuten oder legen Sie eine individuelle Zeit fest.
 
@@ -9,7 +9,7 @@ Mit dem Pomodoro-Timer bleiben Sie fokussiert und steigern Ihre Produktivität d
 
 🔊 **Benachrichtigungen**: Verpassen Sie das Ende Ihrer Produktivitätsphase nicht! Die Erweiterung benachrichtigt Sie mit einem angenehmen Sound und einem blinkenden Fenster.
 
-Warum Pomodoro?
+Warum Focus?
 
 -   **Steigert die Produktivität**: Erledigen Sie mehr in kürzerer Zeit.
     
@@ -27,9 +27,9 @@ Danke an Sandra, Du weißt: Teeemu!
 
 ----------
 
-### Pomodoro Timer: Boost Your Productivity!
+### Focus Timer: Boost Your Productivity!
 
-Stay focused and boost your productivity right in your Chrome browser with the Pomodoro Timer!
+Stay focused and boost your productivity right in your Chrome browser with the Focus Timer!
 
 🍅 **Simple and Effective**: Choose between 5, 10, 15, 30, or 60 minutes or set a custom time.
 
@@ -37,7 +37,7 @@ Stay focused and boost your productivity right in your Chrome browser with the P
 
 🔊 **Notifications**: Don't miss the end of your productivity phase! The extension notifies you with a pleasant sound and a blinking window.
 
-Why Pomodoro?
+Why Focus?
 
 -   **Boosts Productivity**: Get more done in less time.
     
@@ -54,9 +54,9 @@ Boost your productivity and reduce stress – all with just one click!
 
 ----------
 
-### Temporizador Pomodoro: ¡Aumenta tu Productividad!
+### Temporizador Focus: ¡Aumenta tu Productividad!
 
-¡Mantente enfocado y aumenta tu productividad directamente en tu navegador Chrome con el Temporizador Pomodoro!
+¡Mantente enfocado y aumenta tu productividad directamente en tu navegador Chrome con el Temporizador Focus!
 
 🍅 **Simple y Efectivo**: Elige entre 5, 10, 15, 30 o 60 minutos o establece un tiempo personalizado.
 
@@ -64,7 +64,7 @@ Boost your productivity and reduce stress – all with just one click!
 
 🔊 **Notificaciones**: ¡No te pierdas el final de tu fase de productividad! La extensión te notifica con un sonido agradable y una ventana parpadeante.
 
-¿Por qué Pomodoro?
+¿Por qué Focus?
 
 -   **Aumenta la Productividad**: Haz más en menos tiempo.
     
