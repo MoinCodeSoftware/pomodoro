@@ -32,8 +32,9 @@ function startTimer() {
             });
             chrome.tabs.query({}, function(tabs) {
                 tabs.forEach(tab => {
-                    chrome.tabs.executeScript(tab.id, {
-                        code: `new Audio('${chrome.runtime.getURL("alarm.mp3")}').play().catch(error => console.error(error));`
+                    chrome.scripting.executeScript({
+                        target: {tabId: tab.id},
+                        function: playAlarm
                     });
                 });
             });
@@ -45,4 +46,8 @@ function startTimer() {
 function stopTimer() {
     clearInterval(countdownInterval);
     chrome.storage.sync.set({ timeInSeconds: 0 });
+}
+
+function playAlarm() {
+    new Audio(chrome.runtime.getURL("alarm.mp3")).play().catch(error => console.error(error));
 }
