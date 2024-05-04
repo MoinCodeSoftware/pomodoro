@@ -19,6 +19,7 @@ Warum Pomodoro?
     
 
 Steigern Sie Ihre Produktivität und reduzieren Sie Stress – alles mit nur einem Klick!
+Danke an Sandra, Du weißt: Teeemu!
 
 ----------
 
