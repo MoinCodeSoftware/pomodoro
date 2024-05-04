@@ -32,10 +32,12 @@ function startTimer() {
             });
             chrome.tabs.query({}, function(tabs) {
                 tabs.forEach(tab => {
-                    chrome.scripting.executeScript({
-                        target: {tabId: tab.id},
-                        function: playAlarm
-                    });
+                    if (!tab.url.startsWith('chrome://')) {
+                        chrome.scripting.executeScript({
+                            target: {tabId: tab.id},
+                            function: playAlarm
+                        });
+                    }
                 });
             });
         }
@@ -49,5 +51,13 @@ function stopTimer() {
 }
 
 function playAlarm() {
-    new Audio(chrome.runtime.getURL("alarm.mp3")).play().catch(error => console.error(error));
+    const audio = new Audio(chrome.runtime.getURL("alarm.mp3"));
+    let count = 0;
+    const interval = setInterval(() => {
+        audio.play().catch(error => console.error(error));
+        count++;
+        if (count >= 5) {
+            clearInterval(interval);
+        }
+    }, 1000); // Wiederholt alle 1000ms, um den Sound fünfmal zu spielen
 }
