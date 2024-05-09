@@ -9,7 +9,7 @@ Mit dem Focus-Timer bleiben Sie fokussiert und steigern Ihre Produktivität dire
 
 🔊 **Benachrichtigungen**: Verpassen Sie das Ende Ihrer Produktivitätsphase nicht! Die Erweiterung benachrichtigt Sie mit einem angenehmen Sound und einem blinkenden Fenster.
 
-Warum Focus?
+Warum Hocus Focus?
 
 -   **Steigert die Produktivität**: Erledigen Sie mehr in kürzerer Zeit.
     
